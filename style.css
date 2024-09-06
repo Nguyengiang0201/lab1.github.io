@@ -1,0 +1,47 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+.section{
+    font-size: 20px;
+}
+.section h2{
+    color: rgb(57, 74, 226);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(161, 196, 227);
+    padding-left:  10px; ;
+}
+th,td{
+    border: solid 1px black;
+}
+table{
+    border-collapse: collapse;
+}
+td.header{
+    text-align: center;
+    font-weight: bold;
+}
+img{
+    float: right;
+}
+.section a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+tr.gray-row {
+    background-color: rgb(229, 228, 228);
+}
+/* Màu chữ xanh cho các ô có lớp blue-text */
+td.blue-col{
+    color: rgb(4, 4, 242);
+}
+td.blue-text{
+    color: rgb(91, 134, 204);
+}
+td.lightblue-text{
+    color: rgb(91, 134, 204);
+}
+h1{
+    font-size: 50px;
+}
